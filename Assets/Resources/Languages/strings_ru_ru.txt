@@ -1,0 +1,173 @@
+﻿test_string==<color=green>Тестовая строчка</color>
+test_string2==<color=red>Ну работает же</color>
+Center==Центр
+GetRewardText==ВЫ ПОЛУЧИЛИ:
+Lumberjack==Хижина дровосека
+StoneMine==Каменоломня
+HunterHut==Хижина охотника
+SkyMine==Шахата скайстоуна
+Casarm==Казарма
+MageTower==Башня магов
+Engine==Башня инженеров
+SoldierName==Солдат
+KnightName==Рыцарь
+JuggernautName==Танк
+RiderName==Всадник
+ArcherName==Лучник
+ShooterName==Стелок
+MusketeerName==Мушкетер
+RangerName==Рейнджер
+SorcererName==Колдун
+WizardName==Маг
+MasterName==Магситр
+EngineerName==Стим Инженер
+CatapultName==Катапульта
+CannonName==Пушка
+MachineName==Стим Машина
+SoldierInfo==Тренированный солдат. \nХорошо справляется с оружием. \nЧувствительный к магическим атакам.\n<color=yellow>Атака: 4</color>\n<color=red>Здоровье: 25</color>
+KnightInfo==Рыцарь
+JuggernautInfo==Танк
+RiderInfo==Всадник
+ArcherInfo==Лучник
+ShooterInfo==Стелок
+MusketeerInfo==Мушкетер
+RangerInfo==Рейнджер
+SorcererInfo==Колдун
+WizardInfo==Маг
+MasterInfo==Магситр
+EngineerInfo==Стим Инженер
+CatapultInfo==Катапульта
+CannonInfo==Пушка
+MachineInfo==Стим Машина
+BuildMining==Склад
+EmptySlotTitle==Пустой слот
+EmptySlotInfo==Вы можете приобрести сюда любого бойца.
+NoText==Отсутствует текст
+ResourceRequirement==ТРЕБОВАНИЕ РЕСУРСОВ
+RequirementLabel==ТРЕБОВАНИЕ
+NewTest==Тултип\n<color=red>проверка</color><ending/>
+Ending==\n\n                             <color=blue>Нажмите чтобы продолжить...</color>
+HasNoResource==Недостаточно ресурсов для обмена.
+StorageLimit==Не хватает места на складе.
+BuildAction==Строить
+CloseDialogue==[<color=red>Закрыть</color>]
+MoveBack==[<color=red>Вернуться назад</color>]
+ContinueChat==[<color=red>Продолжить</color>]
+Continue==[<color=red>Продолжить</color>]
+continue==[<color=red>Продолжить</color>]
+Unavailable==Недоступно
+EmptyCell==Пустая ячейка
+NoTask==Нет Задач
+BuildingTask==Строится
+UpgradeTask==Улучшение
+BuildCostTemplate==Стоимость строительства {0}:\n<icon=log/>: {1}    <icon=stone/>: {2}\n<icon=apple/>: {3}    <icon=gravore/>: {4}
+MarkRed==<color=red></color>
+MarkGreen==<color=green></color>
+MarkOrange==<color=orange></color>
+MarkYellow==<color=yellow></color>
+CenterInfo==Главное здание в новом поселении. С его помощью можно обустраивать остров как вам необходимо.
+Bonfire==Костер
+Morning==Утро
+Afternoon==День
+Evening==Вечер
+Night==Ночь
+BrokenShipFirst==Поломанный корабль. Зачем он тут?! Какие еще\nкорабли на летающих отсровах? По облакам плавать что ли?
+FightTask==<color=red>Атаковать</color>
+QuitTask==<color=brown>Уйти</color>
+BattleGroup==Отряд
+NoResource==<color=red>Не хватает ресурсов</color>
+ProductBuildPattern==Производит:\n{0} <icon={1}/> в день
+DefenseBuildPattern==_
+CostTemplate==\n\nСтоимость строительства:\n
+StopShip==<color=yellow>Прервать полет</color>
+ExploreMapAction==Исследовать остров
+FlyMapAction==Перелететь на остров
+City==Город
+UnitStats==Урон: {0}\nМеткость: {1}\nСкорость: {2}\n\nСопротивляемость ФизУрону: {3}\nСопротивление ДалУрону: {4}\nСопротивление МагУрону: {5}
+bloodhound==Ищейка
+bloodhoundInfo==Разведчик черных. Маленький, быстрый, но слабый. Это легкая добыча, но остерегайтесь их дальних прыжков.
+MoveActionDes==Переместите своего персонажа до {0} ходов за кажое очко действия.
+MoveActionCellDes==Сюда можно
+BatActPointCost==\n\nСтоимость:<color=blue>{0}</color>
+NoActionPoints==У вас недостаточно очков действий
+BaseAttackCantActive==Нет противников рядом
+BaseAttackEnemyFar==Противник далеко
+QuestTemplate=={0}\n\n{1}
+QuestTemplateReward==\nНаграда:\n{0}
+ActionCommunication==<color=green>Общение</color>
+ActionFight==<color=red>Атаковать</color>
+ActionConquest==<color=red>Захватить</color>
+ActionRob==<color=yellow>Ограбить</color>
+ActionSearch==<color=blue>Разведать</color>
+ActionResearch==<color=blue>Исследовать</color>
+ResultSkillCheck==Результат: {0}
+SkillLabel==Навыки
+ActionLabel==Способности
+EffectLabel==Эффекты
+CardLabel==Карточка
+BloackLabel==Блок
+ResultLabel==Результат
+MaxResultLabel==Макс. Результат
+NeedBattleLabel==1Х Успех:
+SuccessLabel==Успех
+FailLabel==Провал
+CheckBattleLabel==Проверка
+CheckLabel==Проверка
+ResultCehckLabel==Требование {0} <icon=SuccessIcon/> , Макс. результат: 
+AbilitieLabel==Навык
+MinLabel==мин.
+MaxLabel==макс.
+strenghtSRT==СИЛ
+dexteritySRT==ЛВК
+staminaSRT==ВНС
+intelligenceSRT==ИНТ
+charismaSRT==ХАР
+strenghtFullSRT==Сила
+dexterityFullSRT==Ловкость
+staminaFullSRT==Выносливость
+intelligenceFullSRT==Интеллект
+charismaFullSRT==Хазирма
+BaseAttack==Сколотый меч
+BaseAttackDes==Наносит максимальный Урон:{0}.\nПри блокировке урона, противник может контратаковать.
+BaseAttackDesFull==Наносит максимальный Урон:{0}. При блокировке урона, противник может контратаковать.\n\nПроверка:<color=red>Силы</color>\nСложность:{1}\n\nБлокирование\nПроверка:<color=blue>Выносливости</color>\nСложность:{2}\n\nКонтратака\nПроверка:<color=green>Ловкости</color>\nСложность:{3}
+BaseAttackStep1==Проверка:<color=red>Силы</color>\nСложность:{0}\nМаксимальный Урон:{1}
+BaseAttackStep2==Блокирование\nПроверка:<color=blue>Выносливости</color>\nСложность:{0}
+BaseAttackStep3==Контратака\nПроверка:<color=blue>Ловкости</color>\nСложность:{0}
+WolfBite==Укус
+WolfBiteDes==Сложно будет увернуться от укуса.
+WolfBiteDesFull==Проверка:<color=green>Ловкости</color>\nСложность:{0}\n\nБлокирование\nПроверка:<color=green>Ловкости</color>\nСложность:{1}
+WolfBiteStep1==Проверка:<color=green>Ловкости</color>\nСложность:{0}
+WolfBiteStep2==Проверка:<color=green>Ловкости</color>\nСложность:{0}
+Trap==Ловушка
+TrapDes==Устанавливает ловушку, в которую может попасть противник. Чтобы установить надо пройти проверку <color=green>Ловкости</color> и <color=yellow>Интеллекта</color>.
+TrapDesFull==Устанавливает ловушку, в которую может попасть противник. Чтобы установить надо пройти проверку <color=green>Ловкости</color> и <color=yellow>Интеллекта</color>.
+TrapDesStep1==Проверка:<color=green>Ловкости</color>\nСложность:{0}
+TrapDesStep2==Проверка:<color=yellow>Интеллекта</color>\nСложность:{0}
+FirstBow==Первый лук
+FirstBowDes==Наносит максимальный Урон:{0}. При нанесении урона у противника снижается ловкость.
+FirstBowDesFull==Наносит максимальный Урон:{0}. При нанесении урона у противника снижается ловкость.\n\nПроверка:<color=green>Ловкости</color>\nСложность:{1}\n\nБлокирование\nПроверка:<color=green>Ловкости</color>\nСложность:{2}
+FirstBowStep1==Проверка:<color=green>Ловкости</color>\nСложность:{0}\nМаксимальный Урон:{1}
+FirstBowStep2==Блокирование\nПроверка:<color=green>Ловкости</color>\nСложность:{0}
+Speak==*Говорить*
+Trade==*Торговать*
+CostLabel==Стоимость:
+ProductionInDayPattern==Производит в день:
+ConsumptionInDayLabel==Потребление в день:
+WoodIcon==<icon=log/>
+StoneIcon==<icon=stone/>
+FoodIcon==<icon=apple/>
+SkystoneIcon==<icon=gravore/>
+UnitIcon==<icon=persIcon/>
+NewQuestLabel==Новая цель!
+CompleteQuestLabel==Цель выполнена!
+FailQuestLabel==Цель провалена!
+BuildMain==Основать поселение
+BuildMainAdditional==Дает возможность <icon=log/> строить полезные здания и добывать ресурсы.
+Close==[<color=red>Закрыть</color>]
+MoveTo==[Перейти]
+BattleActionCheckTemplate==Проверка:{0}\nСложность:{1}
+LumberjackInfo==Хижина лесника. Тут добывается 20 ед. дерева в день
+FarmInfo==Это ферма что-то выращивает. Тут добывается вроде 8 еды в день
+HunterHutInfo==Хижина охотников. Тут добывается 3 еды в день
+WarehouseInfo==Это мастерская. Тут ты сможешь дать денег мастеру который сделает тебе всякие предметы
+Build==Открыть меню строительства

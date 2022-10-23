@@ -1,0 +1,284 @@
+{
+	"Units": [
+		{
+			"BattleUnitType": "Player222",
+			"Icon": "legionerIcon",
+			"Description": "PlayerInfo",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "10",
+			"Actions": [ "BaseAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "dexterity",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "stamina",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "intelligence",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "charisma",
+					"min": "5",
+					"max": "25"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "Player33333",
+			"Icon": "legionerIcon",
+			"Description": "PlayerInfo",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "10",
+			"Actions": [ "BaseAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "dexterity",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "stamina",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "intelligence",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "charisma",
+					"min": "5",
+					"max": "25"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "Player1111",
+			"Icon": "legionerIcon",
+			"Description": "PlayerInfo",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "10",
+			"Actions": [ "BaseAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "dexterity",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "stamina",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "intelligence",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "charisma",
+					"min": "5",
+					"max": "25"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "Player",
+			"Icon": "legionerIcon",
+			"Description": "PlayerInfo",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "10",
+			"Actions": [ "BaseAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "dexterity",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "stamina",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "intelligence",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "charisma",
+					"min": "5",
+					"max": "25"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "wolf",
+			"Icon": "legionerIcon",
+			"Description": "PlayerInfo",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "4",
+			"Actions": [ "WolfBite" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "0",
+					"max": "15"
+				},
+				{
+					"id": "dexterity",
+					"min": "12",
+					"max": "35"
+				},
+				{
+					"id": "stamina",
+					"min": "0",
+					"max": "15"
+				},
+				{
+					"id": "intelligence",
+					"min": "0",
+					"max": "10"
+				},
+				{
+					"id": "charisma",
+					"min": "0",
+					"max": "0"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "Duard",
+			"Icon": "legionerIcon",
+			"Description": "PlayerInfo",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "4",
+			"Actions": [ "BaseAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "0",
+					"max": "15"
+				},
+				{
+					"id": "dexterity",
+					"min": "12",
+					"max": "35"
+				},
+				{
+					"id": "stamina",
+					"min": "0",
+					"max": "15"
+				},
+				{
+					"id": "intelligence",
+					"min": "0",
+					"max": "10"
+				},
+				{
+					"id": "charisma",
+					"min": "0",
+					"max": "0"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "LonelyNomad",
+			"Icon": "legionerIcon",
+			"Description": "PlayerInfo",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "8",
+			"Actions": [ "BaseAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "10",
+					"max": "20"
+				},
+				{
+					"id": "dexterity",
+					"min": "12",
+					"max": "30"
+				},
+				{
+					"id": "stamina",
+					"min": "0",
+					"max": "15"
+				},
+				{
+					"id": "intelligence",
+					"min": "0",
+					"max": "10"
+				},
+				{
+					"id": "charisma",
+					"min": "5",
+					"max": "24"
+				}
+			]
+		}
+	]
+ }

@@ -1,0 +1,487 @@
+{
+    "Nodes": [
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "Ljfdk",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "173",
+                    "y": "220",
+                    "width": "287",
+                    "height": "363"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Ljfdk",
+                "ActionType": "Action",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "Actions": [
+                    {
+                        "ID": "fdddf",
+                        "Type": "Action",
+                        "CallData": "SkillCheck1"
+                    },
+                    {
+                        "ID": "eqqrqefr",
+                        "Type": "Pack",
+                        "CallData": "4215ffff"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "SkillCheck",
+                "Type": "SkillCheck",
+                "GUID": "SkillCheck1",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "385",
+                    "y": "-127",
+                    "width": "301",
+                    "height": "279"
+                }
+            },
+            "NodeData": {
+                "ActionID": "SkillCheck1",
+                "ActionType": "SkillCheck",
+                "WorkType": "Add",
+                "Base": "SkillCheckWork",
+                "SuccessCheck": [
+                    {
+                        "isSuccess": "True",
+                        "id": "strenght",
+                        "complex": "50",
+                        "amount": "2",
+                        "max": "0"
+                    }
+                ],
+                "BadCheck": [],
+                "SuccessID": "3334tsnhnjj",
+                "FailID": "hdsagf"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "gfgeg",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "583",
+                    "y": "1372",
+                    "width": "272",
+                    "height": "217"
+                }
+            },
+            "NodeData": {
+                "ActionID": "gfgeg",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "Actions": [
+                    {
+                        "ID": "355",
+                        "Type": "Close"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "3334tsnhnjj",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "944",
+                    "y": "-171",
+                    "width": "320",
+                    "height": "217"
+                }
+            },
+            "NodeData": {
+                "ActionID": "3334tsnhnjj",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "Actions": [
+                    {
+                        "ID": "wrtwtwwetewrterw",
+                        "Type": "Close"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Pack",
+                "Type": "PackNode",
+                "GUID": "hdsagf",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "695",
+                    "y": "212",
+                    "width": "198",
+                    "height": "119"
+                }
+            },
+            "NodeData": {
+                "ActionID": "hdsagf",
+                "Base": "PushPack",
+                "Events": [
+                    {
+                        "FlagWorkID": "4141241",
+                        "WorkType": "Add",
+                        "Base": "FlagWork"
+                    },
+                    {
+                        "ID": "Ljfdk",
+                        "Base": "CallAction"
+                    }
+                ],
+                "Ports": [ "hdsagf4141241", "hdsagfLjfdk" ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "FlagWork",
+                "GUID": "4141241",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1031",
+                    "y": "168",
+                    "width": "202",
+                    "height": "147"
+                }
+            },
+            "NodeData": {
+                "FlagWorkID": "4141241",
+                "WorkType": "Add",
+                "Base": "FlagWork"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ShowTooltip",
+                "GUID": "ShowTooltip2",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "887",
+                    "y": "1194",
+                    "width": "225",
+                    "height": "441"
+                }
+            },
+            "NodeData": {
+                "text": "ShowTooltip2",
+                "Base": "ShowTooltip",
+                "Fit": "Auto",
+                "TimeMode": "Click",
+                "FillMode": "Type",
+                "ObjectMode": "Game",
+                "exTime": "0",
+                "LenghtSize": "0",
+                "ID": "tower",
+                "point": {
+                    "x": "0",
+                    "y": "0"
+                },
+                "Conditions": [
+                    {
+                        "ID": "Condition0",
+                        "Type": "Flag",
+                        "ConditionID": "klock",
+                        "isOn": "True",
+                        "Value": "0",
+                        "QualityType": "Equal"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Pack",
+                "Type": "PackNode",
+                "GUID": "4215ffff",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "452",
+                    "y": "739",
+                    "width": "200",
+                    "height": "239"
+                }
+            },
+            "NodeData": {
+                "ActionID": "4215ffff",
+                "Base": "PushPack",
+                "Events": [
+                    {
+                        "FlagWorkID": "klock",
+                        "WorkType": "On",
+                        "Base": "FlagWork"
+                    },
+                    {
+                        "ID": "Wood",
+                        "value": "100",
+                        "Base": "AddStat"
+                    },
+                    {
+                        "ID": "Wood",
+                        "value": "-23",
+                        "Base": "AddStat"
+                    },
+                    {
+                        "ID": "Wood",
+                        "Source": "Lodk",
+                        "value": "14",
+                        "Base": "AddStatProduction"
+                    },
+                    {
+                        "text": "ShowTooltip2",
+                        "Base": "ShowTooltip",
+                        "Fit": "Auto",
+                        "TimeMode": "Click",
+                        "FillMode": "Type",
+                        "ObjectMode": "Game",
+                        "exTime": "0",
+                        "LenghtSize": "0",
+                        "ID": "tower",
+                        "point": {
+                            "x": "0",
+                            "y": "0"
+                        },
+                        "Conditions": [
+                            {
+                                "ID": "Condition0",
+                                "Type": "Flag",
+                                "ConditionID": "klock",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal"
+                            }
+                        ]
+                    },
+                    {
+                        "Base": "QuestWork",
+                        "WorkType": "Add",
+                        "Icon": "icon_bow",
+                        "Description": "FirstQuest",
+                        "Title": "FirstQuest"
+                    },
+                    {
+                        "ID": "gfgeg",
+                        "Base": "CallAction"
+                    }
+                ],
+                "Ports": [ "4215ffffklock", "4215ffffAddStatNode1", "4215ffffAddStatNode2", "4215ffffAddStatProductNode1", "4215ffffShowTooltip2", "4215ffffFirstQuest", "4215ffffgfgeg" ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "MainQuestWork",
+                "GUID": "FirstQuest",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "908",
+                    "y": "971",
+                    "width": "217",
+                    "height": "183"
+                }
+            },
+            "NodeData": {
+                "Base": "QuestWork",
+                "WorkType": "Add",
+                "ID": "FirstQuest",
+                "MainQuest": {
+                    "Icon": "icon_bow",
+                    "Description": "FirstQuest",
+                    "Title": "FirstQuest"
+                }
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "FlagWork",
+                "GUID": "klock",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "945",
+                    "y": "435",
+                    "width": "188",
+                    "height": "147"
+                }
+            },
+            "NodeData": {
+                "FlagWorkID": "klock",
+                "WorkType": "On",
+                "Base": "FlagWork"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "AddStatNode",
+                "GUID": "AddStatNode1",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "955",
+                    "y": "627",
+                    "width": "189",
+                    "height": "145"
+                }
+            },
+            "NodeData": {
+                "ID": "Wood",
+                "value": "100",
+                "Base": "AddStat"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "AddStatNode",
+                "GUID": "AddStatNode2",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1215",
+                    "y": "670",
+                    "width": "189",
+                    "height": "145"
+                }
+            },
+            "NodeData": {
+                "ID": "Wood",
+                "value": "-23",
+                "Base": "AddStat"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "AddStatProductNode",
+                "GUID": "AddStatProductNode1",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1237",
+                    "y": "890",
+                    "width": "189",
+                    "height": "163"
+                }
+            },
+            "NodeData": {
+                "ID": "Wood",
+                "Source": "Lodk",
+                "value": "14",
+                "Base": "AddStatProduction"
+            }
+        }
+    ],
+    "Edges": [
+        {
+            "BaseNodeGUID": "Ljfdk",
+            "PortName": "fdddf",
+            "TargetNodeGUID": "SkillCheck1"
+        },
+        {
+            "BaseNodeGUID": "SkillCheck1",
+            "PortName": "SuccessSkillCheck1",
+            "TargetNodeGUID": "3334tsnhnjj"
+        },
+        {
+            "BaseNodeGUID": "SkillCheck1",
+            "PortName": "FailSkillCheck1",
+            "TargetNodeGUID": "hdsagf"
+        },
+        {
+            "BaseNodeGUID": "hdsagf",
+            "PortName": "hdsagfLjfdk",
+            "TargetNodeGUID": "Ljfdk"
+        },
+        {
+            "BaseNodeGUID": "SetupIconNode",
+            "PortName": "MainEvent",
+            "TargetNodeGUID": "Ljfdk"
+        },
+        {
+            "BaseNodeGUID": "Ljfdk",
+            "PortName": "eqqrqefr",
+            "TargetNodeGUID": "4215ffff"
+        },
+        {
+            "BaseNodeGUID": "hdsagf",
+            "PortName": "hdsagf4141241",
+            "TargetNodeGUID": "4141241"
+        },
+        {
+            "BaseNodeGUID": "4215ffff",
+            "PortName": "4215ffffklock",
+            "TargetNodeGUID": "klock"
+        },
+        {
+            "BaseNodeGUID": "4215ffff",
+            "PortName": "4215ffffAddStatNode1",
+            "TargetNodeGUID": "AddStatNode1"
+        },
+        {
+            "BaseNodeGUID": "4215ffff",
+            "PortName": "4215ffffAddStatNode2",
+            "TargetNodeGUID": "AddStatNode2"
+        },
+        {
+            "BaseNodeGUID": "4215ffff",
+            "PortName": "4215ffffgfgeg",
+            "TargetNodeGUID": "gfgeg"
+        },
+        {
+            "BaseNodeGUID": "4215ffff",
+            "PortName": "4215ffffFirstQuest",
+            "TargetNodeGUID": "FirstQuest"
+        },
+        {
+            "BaseNodeGUID": "4215ffff",
+            "PortName": "4215ffffShowTooltip2",
+            "TargetNodeGUID": "ShowTooltip2"
+        },
+        {
+            "BaseNodeGUID": "4215ffff",
+            "PortName": "4215ffffAddStatProductNode1",
+            "TargetNodeGUID": "AddStatProductNode1"
+        }
+    ],
+    "Data": {
+        "QuestID": "NewIconTest",
+        "Level": "1",
+        "ObjectID": "Joy"
+    },
+    "SetupNode": {
+        "Node": {
+            "NodeType": "Setup",
+            "Type": "SetupIconNode",
+            "GUID": "SetupIconNode",
+            "EntryPoint": "False",
+            "Position": {
+                "x": "-207",
+                "y": "286",
+                "width": "238",
+                "height": "171"
+            }
+        },
+        "NodeData": {
+            "ID": "Joy",
+            "IconID": "Axe",
+            "ObjectID": "tower",
+            "Type": "Object",
+            "Layout": "SubLocation",
+            "Base": "CreateIcon",
+            "MainEvent": "Ljfdk"
+        }
+    }
+}

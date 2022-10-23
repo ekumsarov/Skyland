@@ -1,0 +1,1356 @@
+{
+    "Nodes": [
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "Action6",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1645",
+                    "y": "255",
+                    "width": "323",
+                    "height": "229"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Action6",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "Action6",
+                "Actions": [
+                    {
+                        "ID": "ActionChoice0",
+                        "Type": "Pack",
+                        "CallData": "Pack7"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "Action7",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1663",
+                    "y": "494",
+                    "width": "323",
+                    "height": "229"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Action7",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "Action7",
+                "Actions": [
+                    {
+                        "ID": "ActionChoice0",
+                        "Type": "Pack",
+                        "CallData": "Pack8"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "Action8",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1733",
+                    "y": "737",
+                    "width": "323",
+                    "height": "229"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Action8",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "Action8",
+                "Actions": [
+                    {
+                        "ID": "ActionChoice0",
+                        "Type": "Pack",
+                        "CallData": "Pack9"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ActionChoiceWorkNode",
+                "GUID": "ActionChoiceWorkNode8",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2402",
+                    "y": "797",
+                    "width": "309",
+                    "height": "249"
+                }
+            },
+            "NodeData": {
+                "ActionID": "HistoryFromBoss",
+                "ChoiceID": "HistoryThisIsland",
+                "To": "self",
+                "WorkType": "Remove",
+                "Base": "ActChoiceWork",
+                "Choice": {
+                    "CallData": "ActionChoiceWorkNode8",
+                    "Type": "Close"
+                }
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "Action9",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1729",
+                    "y": "990",
+                    "width": "323",
+                    "height": "229"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Action9",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "Action9",
+                "Actions": [
+                    {
+                        "ID": "ActionChoice0",
+                        "Type": "Pack",
+                        "CallData": "Pack10"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Pack",
+                "Type": "PackNode",
+                "GUID": "Pack10",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2128",
+                    "y": "1050",
+                    "width": "214",
+                    "height": "170"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Pack10",
+                "Base": "PushPack",
+                "Events": [
+                    {
+                        "ActionID": "HistoryFromBoss",
+                        "ChoiceID": "HistoryAboutNeibhour",
+                        "To": "self",
+                        "WorkType": "Remove",
+                        "Base": "ActChoiceWork",
+                        "Choice": {
+                            "CallData": "ActionChoiceWorkNode9",
+                            "Type": "Close"
+                        }
+                    },
+                    {
+                        "FlagWorkID": "HistoryAboutNeibhour",
+                        "WorkType": "On",
+                        "Base": "FlagWork"
+                    },
+                    {
+                        "ActionID": "HistoryFromBoss",
+                        "Text": "NoHistoryFromBoss",
+                        "WorkType": "ChangeText",
+                        "Base": "ActionWork",
+                        "Conditions": [
+                            {
+                                "ID": "Condition0",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryShip",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition1",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryThisIsland",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition2",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryAboutNeibhour",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition4",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryHisLife",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "HistoryFromBoss",
+                        "Base": "CallAction"
+                    }
+                ],
+                "Ports": [ "Pack10ActionChoiceWorkNode9", "Pack10HistoryAboutNeibhour", "Pack10ActionWorkNode1", "Pack10HistoryFromBoss" ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ActionChoiceWorkNode",
+                "GUID": "ActionChoiceWorkNode9",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2434",
+                    "y": "1083",
+                    "width": "309",
+                    "height": "249"
+                }
+            },
+            "NodeData": {
+                "ActionID": "HistoryFromBoss",
+                "ChoiceID": "HistoryAboutNeibhour",
+                "To": "self",
+                "WorkType": "Remove",
+                "Base": "ActChoiceWork",
+                "Choice": {
+                    "CallData": "ActionChoiceWorkNode9",
+                    "Type": "Close"
+                }
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "HistoryFromBoss",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1115",
+                    "y": "325",
+                    "width": "363",
+                    "height": "773"
+                }
+            },
+            "NodeData": {
+                "ActionID": "HistoryFromBoss",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "HistoryFromBoss",
+                "Actions": [
+                    {
+                        "ID": "HistoryHisLife",
+                        "Type": "Action",
+                        "CallData": "Action6"
+                    },
+                    {
+                        "ID": "HistoryShip",
+                        "Type": "Action",
+                        "CallData": "Action7"
+                    },
+                    {
+                        "ID": "HistoryThisIsland",
+                        "Type": "Action",
+                        "CallData": "Action8"
+                    },
+                    {
+                        "ID": "HistoryAboutNeibhour",
+                        "Type": "Action",
+                        "CallData": "Action9"
+                    },
+                    {
+                        "ID": "Back",
+                        "Type": "Action",
+                        "CallData": "TalkWithBoss"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Pack",
+                "Type": "PackNode",
+                "GUID": "Pack8",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2131",
+                    "y": "561",
+                    "width": "207",
+                    "height": "170"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Pack8",
+                "Base": "PushPack",
+                "Events": [
+                    {
+                        "ActionID": "HistoryFromBoss",
+                        "ChoiceID": "HistoryShip",
+                        "To": "self",
+                        "WorkType": "Remove",
+                        "Base": "ActChoiceWork",
+                        "Choice": {
+                            "CallData": "ActionChoiceWorkNode7",
+                            "Type": "Close"
+                        }
+                    },
+                    {
+                        "FlagWorkID": "HistoryShip",
+                        "WorkType": "On",
+                        "Base": "FlagWork"
+                    },
+                    {
+                        "ActionID": "HistoryFromBoss",
+                        "Text": "NoHistoryFromBoss",
+                        "WorkType": "ChangeText",
+                        "Base": "ActionWork",
+                        "Conditions": [
+                            {
+                                "ID": "Condition0",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryShip",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition1",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryThisIsland",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition2",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryAboutNeibhour",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition4",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryHisLife",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "HistoryFromBoss",
+                        "Base": "CallAction"
+                    }
+                ],
+                "Ports": [ "Pack8ActionChoiceWorkNode7", "Pack8HistoryShip", "Pack8ActionWorkNode1", "Pack8HistoryFromBoss" ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ActionChoiceWorkNode",
+                "GUID": "ActionChoiceWorkNode7",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2558",
+                    "y": "482",
+                    "width": "309",
+                    "height": "249"
+                }
+            },
+            "NodeData": {
+                "ActionID": "HistoryFromBoss",
+                "ChoiceID": "HistoryShip",
+                "To": "self",
+                "WorkType": "Remove",
+                "Base": "ActChoiceWork",
+                "Choice": {
+                    "CallData": "ActionChoiceWorkNode7",
+                    "Type": "Close"
+                }
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "FlagWork",
+                "GUID": "HistoryShip",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2927",
+                    "y": "570",
+                    "width": "232",
+                    "height": "144"
+                }
+            },
+            "NodeData": {
+                "FlagWorkID": "HistoryShip",
+                "WorkType": "On",
+                "Base": "FlagWork"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "FlagWork",
+                "GUID": "HistoryThisIsland",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2725",
+                    "y": "856",
+                    "width": "264",
+                    "height": "144"
+                }
+            },
+            "NodeData": {
+                "FlagWorkID": "HistoryThisIsland",
+                "WorkType": "On",
+                "Base": "FlagWork"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Pack",
+                "Type": "PackNode",
+                "GUID": "Pack9",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2142",
+                    "y": "795",
+                    "width": "207",
+                    "height": "170"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Pack9",
+                "Base": "PushPack",
+                "Events": [
+                    {
+                        "ActionID": "HistoryFromBoss",
+                        "ChoiceID": "HistoryThisIsland",
+                        "To": "self",
+                        "WorkType": "Remove",
+                        "Base": "ActChoiceWork",
+                        "Choice": {
+                            "CallData": "ActionChoiceWorkNode8",
+                            "Type": "Close"
+                        }
+                    },
+                    {
+                        "FlagWorkID": "HistoryThisIsland",
+                        "WorkType": "On",
+                        "Base": "FlagWork"
+                    },
+                    {
+                        "ActionID": "HistoryFromBoss",
+                        "Text": "NoHistoryFromBoss",
+                        "WorkType": "ChangeText",
+                        "Base": "ActionWork",
+                        "Conditions": [
+                            {
+                                "ID": "Condition0",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryShip",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition1",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryThisIsland",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition2",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryAboutNeibhour",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition4",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryHisLife",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "HistoryFromBoss",
+                        "Base": "CallAction"
+                    }
+                ],
+                "Ports": [ "Pack9ActionChoiceWorkNode8", "Pack9HistoryThisIsland", "Pack9ActionWorkNode1", "Pack9HistoryFromBoss" ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "FlagWork",
+                "GUID": "HistoryAboutNeibhour",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2751",
+                    "y": "1101",
+                    "width": "291",
+                    "height": "144"
+                }
+            },
+            "NodeData": {
+                "FlagWorkID": "HistoryAboutNeibhour",
+                "WorkType": "On",
+                "Base": "FlagWork"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Pack",
+                "Type": "PackNode",
+                "GUID": "Pack7",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2043",
+                    "y": "248",
+                    "width": "207",
+                    "height": "170"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Pack7",
+                "Base": "PushPack",
+                "Events": [
+                    {
+                        "ActionID": "HistoryFromBoss",
+                        "ChoiceID": "HistoryHisLife",
+                        "To": "self",
+                        "WorkType": "Remove",
+                        "Base": "ActChoiceWork",
+                        "Choice": {
+                            "CallData": "ActionChoiceWorkNode6",
+                            "Type": "Close"
+                        }
+                    },
+                    {
+                        "FlagWorkID": "HistoryHisLife",
+                        "WorkType": "On",
+                        "Base": "FlagWork"
+                    },
+                    {
+                        "ActionID": "HistoryFromBoss",
+                        "Text": "NoHistoryFromBoss",
+                        "WorkType": "ChangeText",
+                        "Base": "ActionWork",
+                        "Conditions": [
+                            {
+                                "ID": "Condition0",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryShip",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition1",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryThisIsland",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition2",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryAboutNeibhour",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            },
+                            {
+                                "ID": "Condition4",
+                                "Type": "Flag",
+                                "ConditionID": "HistoryHisLife",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal",
+                                "DayPart": "Afternoon"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "HistoryFromBoss",
+                        "Base": "CallAction"
+                    }
+                ],
+                "Ports": [ "Pack7ActionChoiceWorkNode6", "Pack7HistoryHisLife", "Pack7ActionWorkNode1", "Pack7HistoryFromBoss" ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ActionChoiceWorkNode",
+                "GUID": "ActionChoiceWorkNode6",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2326",
+                    "y": "187",
+                    "width": "309",
+                    "height": "249"
+                }
+            },
+            "NodeData": {
+                "ActionID": "HistoryFromBoss",
+                "ChoiceID": "HistoryHisLife",
+                "To": "self",
+                "WorkType": "Remove",
+                "Base": "ActChoiceWork",
+                "Choice": {
+                    "CallData": "ActionChoiceWorkNode6",
+                    "Type": "Close"
+                }
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "FlagWork",
+                "GUID": "HistoryHisLife",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "2732",
+                    "y": "261",
+                    "width": "246",
+                    "height": "144"
+                }
+            },
+            "NodeData": {
+                "FlagWorkID": "HistoryHisLife",
+                "WorkType": "On",
+                "Base": "FlagWork"
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ActionWorkNode",
+                "GUID": "ActionWorkNode1",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "3244",
+                    "y": "396",
+                    "width": "291",
+                    "height": "877"
+                }
+            },
+            "NodeData": {
+                "ActionID": "HistoryFromBoss",
+                "Text": "NoHistoryFromBoss",
+                "WorkType": "ChangeText",
+                "Base": "ActionWork",
+                "Conditions": [
+                    {
+                        "ID": "Condition0",
+                        "Type": "Flag",
+                        "ConditionID": "HistoryShip",
+                        "isOn": "True",
+                        "Value": "0",
+                        "QualityType": "Equal",
+                        "DayPart": "Afternoon"
+                    },
+                    {
+                        "ID": "Condition1",
+                        "Type": "Flag",
+                        "ConditionID": "HistoryThisIsland",
+                        "isOn": "True",
+                        "Value": "0",
+                        "QualityType": "Equal",
+                        "DayPart": "Afternoon"
+                    },
+                    {
+                        "ID": "Condition2",
+                        "Type": "Flag",
+                        "ConditionID": "HistoryAboutNeibhour",
+                        "isOn": "True",
+                        "Value": "0",
+                        "QualityType": "Equal",
+                        "DayPart": "Afternoon"
+                    },
+                    {
+                        "ID": "Condition4",
+                        "Type": "Flag",
+                        "ConditionID": "HistoryHisLife",
+                        "isOn": "True",
+                        "Value": "0",
+                        "QualityType": "Equal",
+                        "DayPart": "Afternoon"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "BecauseBlaBla",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1584",
+                    "y": "-382",
+                    "width": "323",
+                    "height": "229"
+                }
+            },
+            "NodeData": {
+                "ActionID": "BecauseBlaBla",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "BecauseBlaBla",
+                "Actions": [
+                    {
+                        "ID": "ActionChoice0",
+                        "Type": "Action",
+                        "CallData": "TalkWithBoss"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "OnTheLeft",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1601",
+                    "y": "-94",
+                    "width": "323",
+                    "height": "229"
+                }
+            },
+            "NodeData": {
+                "ActionID": "OnTheLeft",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "OnTheLeft",
+                "Actions": [
+                    {
+                        "ID": "ActionChoice0",
+                        "Type": "Action",
+                        "CallData": "TalkWithBoss"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "TalkWithBoss",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "549",
+                    "y": "543",
+                    "width": "334",
+                    "height": "1125"
+                }
+            },
+            "NodeData": {
+                "ActionID": "TalkWithBoss",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "TalkWithBoss",
+                "Actions": [
+                    {
+                        "ID": "AskAboutQuest",
+                        "Type": "Action",
+                        "CallData": "AskQuest"
+                    },
+                    {
+                        "ID": "TalkAboutSome",
+                        "Type": "Action",
+                        "CallData": "HistoryFromBoss"
+                    },
+                    {
+                        "ID": "IKill",
+                        "Type": "Action",
+                        "CallData": "BiigHeadNice",
+                        "Conditions": [
+                            {
+                                "ID": "Condition0",
+                                "isVisibleCondition": "True",
+                                "Type": "Flag",
+                                "ConditionID": "HeadTrollHave",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "IKillThinger",
+                        "Type": "Action",
+                        "CallData": "OnlyThinger",
+                        "Conditions": [
+                            {
+                                "ID": "Condition0",
+                                "isVisibleCondition": "True",
+                                "Type": "Flag",
+                                "ConditionID": "ThingerTrollHave",
+                                "isOn": "True",
+                                "Value": "0",
+                                "QualityType": "Equal"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "ByBoss",
+                        "Type": "Close"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "BiigHeadNice",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1073",
+                    "y": "1108",
+                    "width": "331",
+                    "height": "229"
+                }
+            },
+            "NodeData": {
+                "ActionID": "BiigHeadNice",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "BiigHeadNice",
+                "Actions": [
+                    {
+                        "ID": "TookOffMyPlem",
+                        "Type": "Pack",
+                        "CallData": "Pack28"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ShowTooltip",
+                "GUID": "FredPlemYxy",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1778",
+                    "y": "1226",
+                    "width": "241",
+                    "height": "291"
+                }
+            },
+            "NodeData": {
+                "text": "FredPlemYxy",
+                "Base": "ShowTooltip",
+                "Fit": "Auto",
+                "TimeMode": "Click",
+                "FillMode": "Instantly",
+                "ObjectMode": "Game",
+                "exTime": "0",
+                "LenghtSize": "0",
+                "ID": "Player",
+                "point": {
+                    "x": "0",
+                    "y": "0"
+                }
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Pack",
+                "Type": "PackNode",
+                "GUID": "Pack28",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1453",
+                    "y": "1308",
+                    "width": "214",
+                    "height": "146"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Pack28",
+                "Base": "PushPack",
+                "Events": [
+                    {
+                        "text": "FredPlemYxy",
+                        "Base": "ShowTooltip",
+                        "Fit": "Auto",
+                        "TimeMode": "Click",
+                        "FillMode": "Instantly",
+                        "ObjectMode": "Game",
+                        "exTime": "0",
+                        "LenghtSize": "0",
+                        "ID": "Player",
+                        "point": {
+                            "x": "0",
+                            "y": "0"
+                        }
+                    },
+                    {
+                        "ActionID": "TalkWithBoss",
+                        "ChoiceID": "HeadTrollHave",
+                        "To": "self",
+                        "WorkType": "Remove",
+                        "Base": "ActChoiceWork",
+                        "Choice": {
+                            "CallData": "ActionChoiceWorkNode15",
+                            "Type": "Close"
+                        }
+                    },
+                    {
+                        "ID": "TalkWithBoss",
+                        "Base": "CallAction"
+                    }
+                ],
+                "Ports": [ "Pack28FredPlemYxy", "Pack28ActionChoiceWorkNode15", "Pack28TalkWithBoss" ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "OnlyThinger",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1065",
+                    "y": "1413",
+                    "width": "309",
+                    "height": "229"
+                }
+            },
+            "NodeData": {
+                "ActionID": "OnlyThinger",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "OnlyThinger",
+                "Actions": [
+                    {
+                        "ID": "AllThatHave",
+                        "Type": "Pack",
+                        "CallData": "Pack6"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Context",
+                "Type": "Context",
+                "GUID": "AskQuest",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1144",
+                    "y": "-147",
+                    "width": "324",
+                    "height": "365"
+                }
+            },
+            "NodeData": {
+                "ActionID": "AskQuest",
+                "ActionType": "Context",
+                "WorkType": "Add",
+                "Base": "ActionWork",
+                "ShowText": "True",
+                "Text": "AskQuest",
+                "Actions": [
+                    {
+                        "ID": "WhyKillTroll",
+                        "Type": "Action",
+                        "CallData": "BecauseBlaBla"
+                    },
+                    {
+                        "ID": "WhereAreRepit",
+                        "Type": "Action",
+                        "CallData": "OnTheLeft"
+                    }
+                ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Pack",
+                "Type": "PackNode",
+                "GUID": "Pack6",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1442",
+                    "y": "1610",
+                    "width": "203",
+                    "height": "146"
+                }
+            },
+            "NodeData": {
+                "ActionID": "Pack6",
+                "Base": "PushPack",
+                "Events": [
+                    {
+                        "text": "FredPlemYxy",
+                        "Base": "ShowTooltip",
+                        "Fit": "Auto",
+                        "TimeMode": "Click",
+                        "FillMode": "Instantly",
+                        "ObjectMode": "Game",
+                        "exTime": "0",
+                        "LenghtSize": "0",
+                        "ID": "Player",
+                        "point": {
+                            "x": "0",
+                            "y": "0"
+                        }
+                    },
+                    {
+                        "ActionID": "TalkWithBoss",
+                        "ChoiceID": "IKillThinger",
+                        "To": "self",
+                        "WorkType": "Remove",
+                        "Base": "ActChoiceWork",
+                        "Choice": {
+                            "CallData": "ActionChoiceWorkNode6",
+                            "Type": "Close"
+                        }
+                    },
+                    {
+                        "ID": "TalkWithBoss",
+                        "Base": "CallAction"
+                    }
+                ],
+                "Ports": [ "Pack6FredPlemYxy", "Pack6ActionChoiceWorkNode6", "Pack6TalkWithBoss" ]
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ActionChoiceWorkNode",
+                "GUID": "ActionChoiceWorkNode15",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1932",
+                    "y": "1509",
+                    "width": "315",
+                    "height": "249"
+                }
+            },
+            "NodeData": {
+                "ActionID": "TalkWithBoss",
+                "ChoiceID": "HeadTrollHave",
+                "To": "self",
+                "WorkType": "Remove",
+                "Base": "ActChoiceWork",
+                "Choice": {
+                    "CallData": "ActionChoiceWorkNode15",
+                    "Type": "Close"
+                }
+            }
+        },
+        {
+            "Node": {
+                "NodeType": "Event",
+                "Type": "ActionChoiceWorkNode",
+                "GUID": "ActionChoiceWorkNode6",
+                "EntryPoint": "False",
+                "Position": {
+                    "x": "1667",
+                    "y": "1758",
+                    "width": "309",
+                    "height": "249"
+                }
+            },
+            "NodeData": {
+                "ActionID": "TalkWithBoss",
+                "ChoiceID": "IKillThinger",
+                "To": "self",
+                "WorkType": "Remove",
+                "Base": "ActChoiceWork",
+                "Choice": {
+                    "CallData": "ActionChoiceWorkNode6",
+                    "Type": "Close"
+                }
+            }
+        }
+    ],
+    "Edges": [
+        {
+            "BaseNodeGUID": "TalkWithBoss",
+            "PortName": "AskAboutQuest",
+            "TargetNodeGUID": "AskQuest"
+        },
+        {
+            "BaseNodeGUID": "AskQuest",
+            "PortName": "WhyKillTroll",
+            "TargetNodeGUID": "BecauseBlaBla"
+        },
+        {
+            "BaseNodeGUID": "AskQuest",
+            "PortName": "WhereAreRepit",
+            "TargetNodeGUID": "OnTheLeft"
+        },
+        {
+            "BaseNodeGUID": "OnTheLeft",
+            "PortName": "ActionChoice0",
+            "TargetNodeGUID": "TalkWithBoss"
+        },
+        {
+            "BaseNodeGUID": "BecauseBlaBla",
+            "PortName": "ActionChoice0",
+            "TargetNodeGUID": "TalkWithBoss"
+        },
+        {
+            "BaseNodeGUID": "TalkWithBoss",
+            "PortName": "TalkAboutSome",
+            "TargetNodeGUID": "HistoryFromBoss"
+        },
+        {
+            "BaseNodeGUID": "HistoryFromBoss",
+            "PortName": "HistoryHisLife",
+            "TargetNodeGUID": "Action6"
+        },
+        {
+            "BaseNodeGUID": "Action6",
+            "PortName": "ActionChoice0",
+            "TargetNodeGUID": "Pack7"
+        },
+        {
+            "BaseNodeGUID": "Pack7",
+            "PortName": "Pack7ActionChoiceWorkNode6",
+            "TargetNodeGUID": "ActionChoiceWorkNode6"
+        },
+        {
+            "BaseNodeGUID": "HistoryFromBoss",
+            "PortName": "HistoryShip",
+            "TargetNodeGUID": "Action7"
+        },
+        {
+            "BaseNodeGUID": "Action7",
+            "PortName": "ActionChoice0",
+            "TargetNodeGUID": "Pack8"
+        },
+        {
+            "BaseNodeGUID": "Pack8",
+            "PortName": "Pack8ActionChoiceWorkNode7",
+            "TargetNodeGUID": "ActionChoiceWorkNode7"
+        },
+        {
+            "BaseNodeGUID": "HistoryFromBoss",
+            "PortName": "HistoryThisIsland",
+            "TargetNodeGUID": "Action8"
+        },
+        {
+            "BaseNodeGUID": "Action8",
+            "PortName": "ActionChoice0",
+            "TargetNodeGUID": "Pack9"
+        },
+        {
+            "BaseNodeGUID": "Pack9",
+            "PortName": "Pack9ActionChoiceWorkNode8",
+            "TargetNodeGUID": "ActionChoiceWorkNode8"
+        },
+        {
+            "BaseNodeGUID": "HistoryFromBoss",
+            "PortName": "HistoryAboutNeibhour",
+            "TargetNodeGUID": "Action9"
+        },
+        {
+            "BaseNodeGUID": "Action9",
+            "PortName": "ActionChoice0",
+            "TargetNodeGUID": "Pack10"
+        },
+        {
+            "BaseNodeGUID": "Pack10",
+            "PortName": "Pack10ActionChoiceWorkNode9",
+            "TargetNodeGUID": "ActionChoiceWorkNode9"
+        },
+        {
+            "BaseNodeGUID": "Pack8",
+            "PortName": "Pack8HistoryFromBoss",
+            "TargetNodeGUID": "HistoryFromBoss"
+        },
+        {
+            "BaseNodeGUID": "Pack8",
+            "PortName": "Pack8HistoryShip",
+            "TargetNodeGUID": "HistoryShip"
+        },
+        {
+            "BaseNodeGUID": "Pack8",
+            "PortName": "Pack8ActionWorkNode1",
+            "TargetNodeGUID": "ActionWorkNode1"
+        },
+        {
+            "BaseNodeGUID": "Pack9",
+            "PortName": "Pack9HistoryFromBoss",
+            "TargetNodeGUID": "HistoryFromBoss"
+        },
+        {
+            "BaseNodeGUID": "Pack9",
+            "PortName": "Pack9HistoryThisIsland",
+            "TargetNodeGUID": "HistoryThisIsland"
+        },
+        {
+            "BaseNodeGUID": "Pack9",
+            "PortName": "Pack9ActionWorkNode1",
+            "TargetNodeGUID": "ActionWorkNode1"
+        },
+        {
+            "BaseNodeGUID": "Pack10",
+            "PortName": "Pack10HistoryFromBoss",
+            "TargetNodeGUID": "HistoryFromBoss"
+        },
+        {
+            "BaseNodeGUID": "Pack10",
+            "PortName": "Pack10HistoryAboutNeibhour",
+            "TargetNodeGUID": "HistoryAboutNeibhour"
+        },
+        {
+            "BaseNodeGUID": "Pack10",
+            "PortName": "Pack10ActionWorkNode1",
+            "TargetNodeGUID": "ActionWorkNode1"
+        },
+        {
+            "BaseNodeGUID": "HistoryFromBoss",
+            "PortName": "Back",
+            "TargetNodeGUID": "TalkWithBoss"
+        },
+        {
+            "BaseNodeGUID": "Pack7",
+            "PortName": "Pack7HistoryFromBoss",
+            "TargetNodeGUID": "HistoryFromBoss"
+        },
+        {
+            "BaseNodeGUID": "Pack7",
+            "PortName": "Pack7HistoryHisLife",
+            "TargetNodeGUID": "HistoryHisLife"
+        },
+        {
+            "BaseNodeGUID": "Pack7",
+            "PortName": "Pack7ActionWorkNode1",
+            "TargetNodeGUID": "ActionWorkNode1"
+        },
+        {
+            "BaseNodeGUID": "TalkWithBoss",
+            "PortName": "IKill",
+            "TargetNodeGUID": "BiigHeadNice"
+        },
+        {
+            "BaseNodeGUID": "BiigHeadNice",
+            "PortName": "TookOffMyPlem",
+            "TargetNodeGUID": "Pack28"
+        },
+        {
+            "BaseNodeGUID": "Pack28",
+            "PortName": "Pack28FredPlemYxy",
+            "TargetNodeGUID": "FredPlemYxy"
+        },
+        {
+            "BaseNodeGUID": "Pack28",
+            "PortName": "Pack28ActionChoiceWorkNode15",
+            "TargetNodeGUID": "ActionChoiceWorkNode15"
+        },
+        {
+            "BaseNodeGUID": "TalkWithBoss",
+            "PortName": "IKillThinger",
+            "TargetNodeGUID": "OnlyThinger"
+        },
+        {
+            "BaseNodeGUID": "Pack28",
+            "PortName": "Pack28TalkWithBoss",
+            "TargetNodeGUID": "TalkWithBoss"
+        },
+        {
+            "BaseNodeGUID": "OnlyThinger",
+            "PortName": "AllThatHave",
+            "TargetNodeGUID": "Pack6"
+        },
+        {
+            "BaseNodeGUID": "Pack6",
+            "PortName": "Pack6FredPlemYxy",
+            "TargetNodeGUID": "FredPlemYxy"
+        },
+        {
+            "BaseNodeGUID": "Pack6",
+            "PortName": "Pack6TalkWithBoss",
+            "TargetNodeGUID": "TalkWithBoss"
+        },
+        {
+            "BaseNodeGUID": "Pack6",
+            "PortName": "Pack6ActionChoiceWorkNode6",
+            "TargetNodeGUID": "ActionChoiceWorkNode6"
+        }
+    ],
+    "Data": {
+        "QuestID": "CityBossLogic",
+        "Level": "1",
+        "ObjectID": "Mainbuild"
+    }
+}

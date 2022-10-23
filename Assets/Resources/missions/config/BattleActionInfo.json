@@ -1,0 +1,112 @@
+{
+	"Actions": {
+		"BaseAttack": {
+			"Icon": "icon_sword",
+			"Sound": "Sword",
+			"Description": "BaseAttackDes",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "strenght",
+						"complex": "10",
+						"max": "1"
+					}
+				],
+				"AvoidCheck": [
+					{
+						"id": "stamina",
+						"complex": "8"
+					}
+				],
+				"CounterCheck": [
+					{
+						"id": "dexterity",
+						"complex": "20",
+						"max": "1"
+					}
+				]
+			}
+		},
+		"FirstBow": {
+			"Icon": "icon_bow",
+			"Sound": "Bow",
+			"Description": "FirstBowDes",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "dexterity",
+						"complex": "7"
+					}
+				],
+				"AvoidCheck": [
+					{
+						"id": "dexterity",
+						"complex": "9"
+					}
+				]
+			}
+		},
+		"WolfBite": {
+			"Icon": "icon_bow",
+			"Sound": "Bow",
+			"Description": "WolfBiteDes",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "dexterity",
+						"complex": "20"
+					}
+				],
+				"AvoidCheck": [
+					{
+						"id": "dexterity",
+						"complex": "20"
+					}
+				]
+			}
+		},
+		"Trap": {
+			"Icon": "lock",
+			"Sound": "Sword",
+			"Description": "TrapDes",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "dexterity",
+						"complex": "12",
+						"max": "1"
+					},
+					{
+						"id": "intelligence",
+						"complex": "12",
+						"max": "1"
+					}
+				]
+			}
+		},
+		"BaseDefense": {
+			"Icon": "icon_sword",
+			"Sound": "Sword",
+			"Description": "BaseAttackDes",
+			"OtherData": {
+				"DamageDeal": {
+					"x": "60",
+					"y": "80"
+				},
+				"SkillCheck": [
+					{
+						"id": "strenght",
+						"complex": "10"
+					}
+				],
+				"MaxDamage": "3",
+				"AvoidCheck": [
+					{
+						"id": "stamina",
+						"complex": "12"
+					}
+				]
+			}
+		}
+	}
+ }

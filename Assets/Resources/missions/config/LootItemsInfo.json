@@ -1,0 +1,56 @@
+﻿{
+    "LootItemInfo": [
+        {
+            "ID": "WolfBow",
+            "Icon": "icon_bow",
+            "type": "Weapon",
+            "Actions": [ "FirstBow" ]
+        },
+        {
+            "ID": "WolfNet",
+            "Icon": "war",
+            "type": "Extra",
+            "FlagsOn": [ "WolfNet" ]
+        },
+        {
+            "ID": "WolfTrap",
+            "Icon": "war",
+            "type": "SecondWeapon",
+            "Actions": [ "Trap" ]
+        },
+        {
+            "ID": "Rubin",
+            "Icon": "war",
+            "type": "Amulet",
+            "PassiveSkills": [
+                {
+                    "id": "strenght",
+                    "min": "2",
+                    "max": "17"
+                }
+            ]
+        },
+        {
+            "ID": "Almaz",
+            "Icon": "DiamondICon",
+            "type": "Amulet",
+            "PassiveSkills": [
+                {
+                    "id": "intelligence",
+                    "min": "2",
+                    "max": "17"
+                }
+            ]
+        },
+        {
+            "ID": "HeadTroll",
+            "Icon": "war",
+            "type": "Extra"
+        },
+        {
+            "ID": "ThingerTroll",
+            "Icon": "war",
+            "type": "Extra"
+        }
+    ]
+ }

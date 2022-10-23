@@ -1,0 +1,11 @@
+{
+	"Effects":
+	{
+		"AnimalPoisonEffect":
+		{
+			"Icon": "BaseIcon",
+			"Description": "MoveActionDes",
+			"Turns": "3"
+		}
+	}
+ }

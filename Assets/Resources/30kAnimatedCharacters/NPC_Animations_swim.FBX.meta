@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 77430a4a78812e24f861080550c27e7f
+timeCreated: 1493391492
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CATHead
+    100002: CATLArm
+    100004: CATLCalf
+    100006: CATLClavicle
+    100008: CATLFingers1
+    100010: CATLFingers2
+    100012: CATLFoot
+    100014: CATLForearm
+    100016: CATLHand
+    100018: CATLLegPlatform
+    100020: CATLThigh
+    100022: CATLThumb1
+    100024: CATLThumb2
+    100026: CATNeck
+    100028: CATPelvis
+    100030: CATRArm
+    100032: CATRCalf
+    100034: CATRClavicle
+    100036: CATRFingers1
+    100038: CATRFingers2
+    100040: CATRFoot
+    100042: CATRForearm
+    100044: CATRHand
+    100046: CATRigLArmIKTarget
+    100048: CATRigLLegDigit11
+    100050: CATRigLLegDigit12
+    100052: CATRigRArmIKTarget
+    100054: CATRLegPlatform
+    100056: CATRThigh
+    100058: CATRThumb1
+    100060: CATRThumb2
+    100062: CATRToe1
+    100064: CATRToe2
+    100066: CATSpine1
+    100068: CATSpine2
+    100070: CATSpine3
+    100072: Character001
+    100074: //RootNode
+    100076: Particle View 001
+    400000: CATHead
+    400002: CATLArm
+    400004: CATLCalf
+    400006: CATLClavicle
+    400008: CATLFingers1
+    400010: CATLFingers2
+    400012: CATLFoot
+    400014: CATLForearm
+    400016: CATLHand
+    400018: CATLLegPlatform
+    400020: CATLThigh
+    400022: CATLThumb1
+    400024: CATLThumb2
+    400026: CATNeck
+    400028: CATPelvis
+    400030: CATRArm
+    400032: CATRCalf
+    400034: CATRClavicle
+    400036: CATRFingers1
+    400038: CATRFingers2
+    400040: CATRFoot
+    400042: CATRForearm
+    400044: CATRHand
+    400046: CATRigLArmIKTarget
+    400048: CATRigLLegDigit11
+    400050: CATRigLLegDigit12
+    400052: CATRigRArmIKTarget
+    400054: CATRLegPlatform
+    400056: CATRThigh
+    400058: CATRThumb1
+    400060: CATRThumb2
+    400062: CATRToe1
+    400064: CATRToe2
+    400066: CATSpine1
+    400068: CATSpine2
+    400070: CATSpine3
+    400072: Character001
+    400074: //RootNode
+    400076: Particle View 001
+    7400000: SwimIdle
+    7400002: SwimForward
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SwimIdle
+      takeName: Take 001
+      firstFrame: 859
+      lastFrame: 903
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATLLegPlatform
+        weight: 0
+      - path: CATPelvis
+        weight: 1
+      - path: CATPelvis/CATLThigh
+        weight: 1
+      - path: CATPelvis/CATLThigh/CATLCalf
+        weight: 1
+      - path: CATPelvis/CATLThigh/CATLCalf/CATLFoot
+        weight: 1
+      - path: CATPelvis/CATLThigh/CATLCalf/CATLFoot/CATRigLLegDigit11
+        weight: 1
+      - path: CATPelvis/CATLThigh/CATLCalf/CATLFoot/CATRigLLegDigit11/CATRigLLegDigit12
+        weight: 0
+      - path: CATPelvis/CATRThigh
+        weight: 1
+      - path: CATPelvis/CATRThigh/CATRCalf
+        weight: 1
+      - path: CATPelvis/CATRThigh/CATRCalf/CATRFoot
+        weight: 1
+      - path: CATPelvis/CATRThigh/CATRCalf/CATRFoot/CATRToe1
+        weight: 1
+      - path: CATPelvis/CATRThigh/CATRCalf/CATRFoot/CATRToe1/CATRToe2
+        weight: 0
+      - path: CATPelvis/CATSpine1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand/CATLFingers1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand/CATLFingers1/CATLFingers2
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand/CATLThumb1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand/CATLThumb1/CATLThumb2
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATNeck
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATNeck/CATHead
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand/CATRFingers1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand/CATRFingers1/CATRFingers2
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand/CATRThumb1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand/CATRThumb1/CATRThumb2
+        weight: 1
+      - path: CATRigLArmIKTarget
+        weight: 0
+      - path: CATRigRArmIKTarget
+        weight: 0
+      - path: CATRLegPlatform
+        weight: 0
+      - path: Character001
+        weight: 0
+      - path: Particle View 001
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SwimForward
+      takeName: Take 001
+      firstFrame: 910
+      lastFrame: 950
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATLLegPlatform
+        weight: 0
+      - path: CATPelvis
+        weight: 1
+      - path: CATPelvis/CATLThigh
+        weight: 1
+      - path: CATPelvis/CATLThigh/CATLCalf
+        weight: 1
+      - path: CATPelvis/CATLThigh/CATLCalf/CATLFoot
+        weight: 1
+      - path: CATPelvis/CATLThigh/CATLCalf/CATLFoot/CATRigLLegDigit11
+        weight: 1
+      - path: CATPelvis/CATLThigh/CATLCalf/CATLFoot/CATRigLLegDigit11/CATRigLLegDigit12
+        weight: 0
+      - path: CATPelvis/CATRThigh
+        weight: 1
+      - path: CATPelvis/CATRThigh/CATRCalf
+        weight: 1
+      - path: CATPelvis/CATRThigh/CATRCalf/CATRFoot
+        weight: 1
+      - path: CATPelvis/CATRThigh/CATRCalf/CATRFoot/CATRToe1
+        weight: 1
+      - path: CATPelvis/CATRThigh/CATRCalf/CATRFoot/CATRToe1/CATRToe2
+        weight: 0
+      - path: CATPelvis/CATSpine1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand/CATLFingers1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand/CATLFingers1/CATLFingers2
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand/CATLThumb1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATLClavicle/CATLArm/CATLForearm/CATLHand/CATLThumb1/CATLThumb2
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATNeck
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATNeck/CATHead
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand/CATRFingers1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand/CATRFingers1/CATRFingers2
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand/CATRThumb1
+        weight: 1
+      - path: CATPelvis/CATSpine1/CATSpine2/CATSpine3/CATRClavicle/CATRArm/CATRForearm/CATRHand/CATRThumb1/CATRThumb2
+        weight: 1
+      - path: CATRigLArmIKTarget
+        weight: 0
+      - path: CATRigRArmIKTarget
+        weight: 0
+      - path: CATRLegPlatform
+        weight: 0
+      - path: Character001
+        weight: 0
+      - path: Particle View 001
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

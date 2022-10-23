@@ -1,0 +1,59 @@
+﻿{
+	"SlotName":"Slot1",
+	"SelectedMission":"1",
+	"Difficulty":"Medium",
+	"Platform":"PC",
+	"RoundTime":120,
+	"DaysPart":4,
+	"DayTics":12,
+	"AllTicks":0,
+	"AvaliableBuilds":{ "Lumberjack":1, "Farm":1, "HunterHut":1, "TradesmanHut":1 },
+	"ExploredResearch": {},
+	"LootBag": [ "WolfTrap", "Rubin", "Almaz" ],
+	"HeroList":
+    [
+		{
+			"BattleUnitType": "Player",
+			"Icon": "legionerIcon",
+			"Description": "PlayerInfo",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "10",
+			"Actions": [ "FirstBow" ],
+			"EquippedActions": [ "BaseAttack" ],
+			"Abilities": {},
+			"Loot": [
+				 
+			],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "dexterity",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "stamina",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "intelligence",
+					"min": "5",
+					"max": "25"
+				},
+				{
+					"id": "charisma",
+					"min": "5",
+					"max": "25"
+				}
+			]
+		}
+	]
+}

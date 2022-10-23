@@ -1,0 +1,79 @@
+{
+	"Actions": {
+		"AnimalAttack": {
+			"Icon": "icon_sword",
+			"Sound": "Sword",
+			"Description": "AnimalAttackDes",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "strenght",
+						"complex": "4",
+						"max": "1"
+					}
+				],
+				"AvoidCheck": [
+					{
+						"id": "dexterity",
+						"complex": "7"
+					}
+				]
+			}
+		},
+		"AnimalBow": {
+			"Icon": "icon_bow",
+			"Sound": "Bow",
+			"Description": "AnimalBowDes",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "dexterity",
+						"complex": "6"
+					}
+				],
+				"AvoidCheck": [
+					{
+						"id": "dexterity",
+						"complex": "7"
+					}
+				]
+			}
+		},
+		"AnimalHeal": {
+			"Icon": "BottleIcon",
+			"Sound": "Bow",
+			"Description": "AnimalHealDes",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "intelligence",
+						"complex": "4"
+					}
+				]
+			}
+		},
+		"AnimalRetreat": {
+			"Icon": "AnimalRetreat",
+			"Sound": "Bow",
+			"Description": "AnimalRetreatDes",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "dexterity",
+						"complex": "15"
+					}
+				]
+			}
+		},
+		"AnimalPoison": {
+			"Icon": "AnimalRetreat",
+			"Sound": "Bow",
+			"Description": "AnimalRetreatDes"
+		},
+		"TrollAttack": {
+			"Icon": "icon_sword",
+			"Sound": "Bow",
+			"Description": "TrollAttackDes"
+		}
+	}
+ }

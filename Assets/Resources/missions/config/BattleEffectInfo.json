@@ -1,0 +1,41 @@
+{
+	"Effects": {
+		"WolfTrapEffect": {
+			"Icon": "arrow",
+			"Description": "MoveActionDes",
+			"Turns": "4",
+			"OtherData": {
+				"SkillCheck": [
+					{
+						"id": "dexterity",
+						"complex": "28"
+					}
+				]
+			}
+		},
+		"WolfTrapCaughtEffect": {
+			"Icon": "arrow",
+			"Description": "MoveActionDes",
+			"Turns": "4",
+			"ActionsCancel": [ "WolfBite" ],
+			"OtherData": {
+				"WeakStep": "3",
+				"Influence": {
+					"Skill": "dexterity",
+					"Amount": "10"
+				}
+			}
+		},
+		"FirstBowEffect": {
+			"Icon": "arrow",
+			"Description": "MoveActionDes",
+			"Turns": "2",
+			"OtherData": {
+				"Influence": {
+					"Skill": "dexterity",
+					"Amount": "4"
+				}
+			}
+		}
+	}
+ }

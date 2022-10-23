@@ -1,0 +1,86 @@
+{
+
+	"Builds": {
+		"HeadmanFarm":
+		[
+			{
+				"Icon": "woodcutter_hut",
+				"Prefab": "Lumberjack",
+				"Description": "Bakery",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 20,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 2,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Bakery",
+					"Production": 1
+				}
+			},
+			{
+				"Icon": "lumberjack_lvl_1",
+				"Prefab": "Lumberjack",
+				"Description": "LumberjackInfo",
+				"HP": 100,
+				"BuildTime": 30,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 0,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Wood",
+					"Production": 2
+				}
+			},
+			{
+				"Icon": "lumberjack_lvl_1",
+				"Prefab": "Lumberjack",
+				"Description": "LumberjackInfo",
+				"HP": 100,
+				"BuildTime": 40,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Wood",
+					"Production": 2
+				}
+			}
+		]
+	}
+ }

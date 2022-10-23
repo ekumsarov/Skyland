@@ -1,0 +1,728 @@
+{
+
+	"Builds": {
+		"Center": [
+			{
+				"Icon": "city_hall_lvl_1",
+				"Prefab": "MainCenter",
+				"Description": "CenterInfo",
+				"HP": "100",
+				"BuildTime": "4",
+				"BuildType": "MainBuild",
+				"Cost": {
+					"Wood": "15",
+					"Stone": "10",
+					"Food": "0",
+					"Skystone": "0",
+					"Unit": "0"
+				},
+				"Consumtion": {
+					"Wood": "0",
+					"Stone": "0",
+					"Food": "0",
+					"Skystone": "0",
+					"Unit": "0"
+				},
+				"Special": {
+					"Builders": "1",
+					"OpenSlots": "4",
+					"UnitType": "Archer",
+					"TroopAmount": "2"
+				}
+			},
+			{
+				"Icon": "city_hall_lvl_1",
+				"Prefab": "MainCenter",
+				"Description": "CenterInfo",
+				"HP": "250",
+				"BuildTime": "25",
+				"BuildType": "MainBuild",
+				"Cost": {
+					"Wood": "40",
+					"Stone": "30",
+					"Food": "30",
+					"Skystone": "0",
+					"Unit": "0"
+				},
+				"Consumtion": {
+					"Wood": "0",
+					"Stone": "0",
+					"Food": "0",
+					"Skystone": "0",
+					"Unit": "0"
+				},
+				"Special": {
+					"Builders": "2",
+					"OpenSlots": "3",
+					"UnitType": "Archer",
+					"TroopAmount": "5"
+				}
+			},
+			{
+				"Icon": "city_hall_lvl_1",
+				"Prefab": "MainCenter",
+				"Description": "CenterInfo",
+				"HP": "500",
+				"BuildTime": "40",
+				"BuildType": "MainBuild",
+				"Cost": {
+					"Wood": "120",
+					"Stone": 100,
+					"Food": 80,
+					"Skystone": 35,
+					"Unit": 2
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Builders": 2,
+					"OpenSlots": 6,
+					"UnitType": "Archer",
+					"TroopAmount": 10
+				}
+			}
+		],
+		"Lumberjack": [
+			{
+				"Icon": "woodcutter_hut",
+				"Prefab": "Lumberjack",
+				"Description": "LumberjackInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 10,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Wood",
+					"Production": 20
+				}
+			},
+			{
+				"Icon": "lumberjack_lvl_1",
+				"Prefab": "Lumberjack",
+				"Description": "LumberjackInfo",
+				"HP": 100,
+				"BuildTime": 30,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 0,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Wood",
+					"Production": 2
+				}
+			},
+			{
+				"Icon": "lumberjack_lvl_1",
+				"Prefab": "Lumberjack",
+				"Description": "LumberjackInfo",
+				"HP": 100,
+				"BuildTime": 40,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Wood",
+					"Production": 2
+				}
+			}
+		],
+		"Farm": [
+			{
+				"Icon": "Mill",
+				"Prefab": "Lumberjack",
+				"Description": "FarmInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 30,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 5,
+					"Unit": 2
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": "0.5",
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Food",
+					"Production": 8
+				}
+			},
+			{
+				"Icon": "stone_lvl_1",
+				"Prefab": "StoneMine",
+				"Description": "StoneMineInfo",
+				"HP": 100,
+				"BuildTime": 30,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Stone",
+					"Production": 2
+				}
+			},
+			{
+				"Icon": "stone_lvl_1",
+				"Prefab": "StoneMine",
+				"Description": "StoneMineInfo",
+				"HP": 100,
+				"BuildTime": 40,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Stone",
+					"Production": 2
+				}
+			}
+		],
+		"HunterHut": [
+			{
+				"Icon": "House_lvl_2",
+				"Prefab": "Lumberjack",
+				"Description": "HunterHutInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 15,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 2,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": "0.2",
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Food",
+					"Production": 3
+				}
+			},
+			{
+				"Icon": "miners_lvl_1",
+				"Prefab": "Template",
+				"Description": "HunterHutInfo",
+				"HP": 100,
+				"BuildTime": 30,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Food",
+					"Production": 2
+				}
+			},
+			{
+				"Icon": "miners_lvl_1",
+				"Prefab": "Template",
+				"Description": "HunterHutInfo",
+				"HP": 100,
+				"BuildTime": 40,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Food",
+					"Production": 2
+				}
+			}
+		],
+		"TradesmanHut": [
+			{
+				"Icon": "Warehouse",
+				"Prefab": "Lumberjack",
+				"Description": "WarehouseInfo",
+				"HP": 50,
+				"BuildTime": 30,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 40,
+					"Stone": 25,
+					"Metal": 10,
+					"Food": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": "0.5",
+					"Stone": 0,
+					"Food": 4,
+					"Skystone": 0,
+					"Unit": 0
+				}
+			},
+			{
+				"Icon": "miners_lvl_1",
+				"Prefab": "SkyMine",
+				"Description": "SkyMineInfo",
+				"HP": 50,
+				"BuildTime": 30,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 2,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Skystone",
+					"Production": 2
+				}
+			},
+			{
+				"Icon": "miners_lvl_1",
+				"Prefab": "SkyMine",
+				"Description": "SkyMineInfo",
+				"HP": 50,
+				"BuildTime": 30,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"Type": "Skystone",
+					"Production": 2
+				}
+			}
+		],
+		"Casarm": [
+			{
+				"Icon": "Barak",
+				"Prefab": "Template",
+				"Description": "CasarmInfo",
+				"HP": 100,
+				"BuildTime": 60,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 30,
+					"Stone": 30,
+					"Food": 0,
+					"Skystone": 20,
+					"Unit": 4
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 6,
+					"Skystone": "0.5",
+					"Unit": 0
+				}
+			},
+			{
+				"Icon": "casarm_lvl_1",
+				"Prefab": "Casarm",
+				"Description": "CasarmInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Soldier",
+					"TroopAmount": 5
+				}
+			},
+			{
+				"Icon": "casarm_lvl_1",
+				"Prefab": "Casarm",
+				"Description": "CasarmInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Soldier",
+					"TroopAmount": 5
+				}
+			}
+		],
+		"ScoutHut": [
+			{
+				"Icon": "casarm_lvl_1",
+				"Prefab": "Template",
+				"Description": "ScoutHutInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "ProductBuild",
+				"Cost": {
+					"Wood": 50,
+					"Stone": 10,
+					"Metal": 10,
+					"Skystone": 10,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 2,
+					"Skystone": 0,
+					"Unit": 0
+				}
+			},
+			{
+				"Icon": "casarm_lvl_1",
+				"Prefab": "ArcherHouse",
+				"Description": "ArcherHouseInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Archer",
+					"TroopRestoreTime": 5,
+					"TroopAmount": 5
+				}
+			},
+			{
+				"Icon": "casarm_lvl_1",
+				"Prefab": "ArcherHouse",
+				"Description": "ArcherHouseInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Archer",
+					"TroopRestoreTime": 5,
+					"TroopAmount": 5
+				}
+			}
+		],
+		"MageTower": [
+			{
+				"Icon": "mage_lvl_1",
+				"Prefab": "MageTower",
+				"Description": "MageTowerInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Mage",
+					"TroopRestoreTime": 5,
+					"TroopAmount": 5
+				}
+			},
+			{
+				"Icon": "mage_lvl_1",
+				"Prefab": "MageTower",
+				"Description": "MageTowerInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Mage",
+					"TroopRestoreTime": 5,
+					"TroopAmount": 5
+				}
+			},
+			{
+				"Icon": "mage_lvl_1",
+				"Prefab": "MageTower",
+				"Description": "MageTowerInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Mage",
+					"TroopRestoreTime": 5,
+					"TroopAmount": 5
+				}
+			}
+		],
+		"Engine": [
+			{
+				"Icon": "lumberjack_lvl_1",
+				"Prefab": "Engine",
+				"Description": "EngineInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Engineer",
+					"TroopRestoreTime": 5,
+					"TroopAmount": 5
+				}
+			},
+			{
+				"Icon": "lumberjack_lvl_1",
+				"Prefab": "Engine",
+				"Description": "EngineInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Engineer",
+					"TroopRestoreTime": 5,
+					"TroopAmount": 5
+				}
+			},
+			{
+				"Icon": "lumberjack_lvl_1",
+				"Prefab": "Engine",
+				"Description": "EngineInfo",
+				"HP": 100,
+				"BuildTime": 15,
+				"BuildType": "DefenseBuild",
+				"Cost": {
+					"Wood": 1,
+					"Stone": 1,
+					"Food": 1,
+					"Skystone": 0,
+					"Unit": 1
+				},
+				"Consumtion": {
+					"Wood": 0,
+					"Stone": 0,
+					"Food": 0,
+					"Skystone": 0,
+					"Unit": 0
+				},
+				"Special": {
+					"UnitType": "Engineer",
+					"TroopRestoreTime": 5,
+					"TroopAmount": 5
+				}
+			}
+		]
+
+	}
+ }

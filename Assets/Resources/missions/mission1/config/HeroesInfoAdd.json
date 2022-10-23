@@ -1,0 +1,204 @@
+{
+	"Units": [
+		{
+			"BattleUnitType": "StrangeAnimal1",
+			"Icon": "AnimalIcon",
+			"Description": "StrangeAnimalDes",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "6",
+			"Actions": [ "AnimalHeal", "AnimalRetreat", "AnimalPoison", "AnimalBow", "AnimalAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "3",
+					"max": "12"
+				},
+				{
+					"id": "dexterity",
+					"min": "13",
+					"max": "18"
+				},
+				{
+					"id": "stamina",
+					"min": "0",
+					"max": "12"
+				},
+				{
+					"id": "intelligence",
+					"min": "0",
+					"max": "8"
+				},
+				{
+					"id": "charisma",
+					"min": "0",
+					"max": "5"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "StrangeAnimal2",
+			"Icon": "AnimalIcon",
+			"Description": "StrangeAnimalDes",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "6",
+			"Actions": [ "AnimalHeal", "AnimalRetreat", "AnimalPoison", "AnimalBow", "AnimalAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "3",
+					"max": "12"
+				},
+				{
+					"id": "dexterity",
+					"min": "13",
+					"max": "18"
+				},
+				{
+					"id": "stamina",
+					"min": "0",
+					"max": "12"
+				},
+				{
+					"id": "intelligence",
+					"min": "0",
+					"max": "8"
+				},
+				{
+					"id": "charisma",
+					"min": "0",
+					"max": "5"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "StrangeAnimal3",
+			"Icon": "AnimalIcon",
+			"Description": "StrangeAnimalDes",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "6",
+			"Actions": [ "AnimalHeal", "AnimalRetreat", "AnimalPoison", "AnimalBow", "AnimalAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "3",
+					"max": "12"
+				},
+				{
+					"id": "dexterity",
+					"min": "13",
+					"max": "18"
+				},
+				{
+					"id": "stamina",
+					"min": "0",
+					"max": "12"
+				},
+				{
+					"id": "intelligence",
+					"min": "0",
+					"max": "8"
+				},
+				{
+					"id": "charisma",
+					"min": "0",
+					"max": "5"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "StrangeAnimalBig",
+			"Icon": "AnimalIcon",
+			"Description": "StrangeAnimalDes",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "10",
+			"Actions": [ "AnimalHeal", "AnimalPoison", "AnimalBow", "AnimalAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "6",
+					"max": "18"
+				},
+				{
+					"id": "dexterity",
+					"min": "8",
+					"max": "15"
+				},
+				{
+					"id": "stamina",
+					"min": "5",
+					"max": "15"
+				},
+				{
+					"id": "intelligence",
+					"min": "3",
+					"max": "12"
+				},
+				{
+					"id": "charisma",
+					"min": "0",
+					"max": "5"
+				}
+			]
+		},
+		{
+			"BattleUnitType": "TrollHero",
+			"Icon": "AnimalIcon",
+			"Description": "TrollDes",
+			"Class": "Universial",
+			"Level": "1",
+			"Experience": "0",
+			"HPAm": "10",
+			"Actions": [ "TrollAttack" ],
+			"Abilities": {},
+			"Loot": [],
+			"Units": [],
+			"Skills": [
+				{
+					"id": "strenght",
+					"min": "10",
+					"max": "30"
+				},
+				{
+					"id": "dexterity",
+					"min": "8",
+					"max": "12"
+				},
+				{
+					"id": "stamina",
+					"min": "15",
+					"max": "35"
+				},
+				{
+					"id": "intelligence",
+					"min": "20",
+					"max": "40"
+				},
+				{
+					"id": "charisma",
+					"min": "20",
+					"max": "40"
+				}
+			]
+		}
+	]
+ }

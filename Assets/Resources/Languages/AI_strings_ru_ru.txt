@@ -1,0 +1,13 @@
+﻿AIPangramm==Завершён ежегодный съезд эрудированных школьников, мечтающих глубоко проникнуть в тайны физических явлений и химических реакций.
+AIGreetingsSettler1==Приветствуем вас!\nЧем мы вам можем помочь?
+AiSettlerPlayerTradeButton==Покажи мне что\nу тебя есть на продажу.\n<color=yellow>[</color><color=blue>Торговля</color><color=yellow>]</color>
+AiSettlerPlayerJoinButton==Присоединяйтесь ко мне!<color=yellow>[</color><color=green>Присоединение</color><color=yellow>]</color>
+AiSettlerPlayerRaidButton==Отдавайте свой скайстоун мне![<color=yellow>Ограбление</color>]
+AiSettlerPlayerAttackButton==[<color=red>Атака</color>]
+AITradeSettler1==Все что мы вам можем предложить {0}.\nЧто вас интересует?
+AITradeSettler2==Мы можем предложить {0}.\nНас интересует {1}.
+AIWaitTradeSettler1==Простите, но у нас нет ничего сейчас на продажу. Приходите позже!
+AIWaitTradeSettlerButton1==ОК
+PlayerTradeAiButton1==Пожалуй возьму
+PlayerTradeAiButton2==Я бы хотел приобрести
+PlayerTradeAiButton3==Меня интересует

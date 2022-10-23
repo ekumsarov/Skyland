@@ -1,0 +1,808 @@
+{ 
+	"Units": 
+		[
+			{	"BattleUnitType":"Hero1",
+				"Icon":"legionerIcon",
+				"Description":"SoldierInfo",
+				"HPAm":"28",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost":{
+								"Wood":"4",
+								"Stone":"2",
+								"Food":"4",
+								"Skystone":"0"
+						   }
+			},
+			{
+				"BattleUnitType": "Hero2",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Hero3",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "20",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "firstDefender",
+				"Icon": "persIcon",
+				"Description": "firstDefenderInfo",
+				"HPAm": "12",
+				"Size": {
+					"x": "1",
+					"y": "1"
+				},
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Headman",
+				"Icon": "asist_icon",
+				"Description": "HeadmanInfo",
+				"HPAm": "12",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "bloodhound",
+				"Icon": "icon_bow",
+				"Description": "bloodhoundInfo",
+				"HPAm": "12",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "spore",
+				"Icon": "persIcon",
+				"Description": "bloodhoundInfo",
+				"HPAm": "12",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Soldier",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Knight",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Juggernaut",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Rider",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Archer",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Shooter",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Musketeer",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Ranger",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Sorcerer",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Wizard",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24",
+				"BuildTime": "10",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Master",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24.0",
+				"BuildTime": "10.0",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "Engineer",
+				"Icon": "legionerIcon",
+				"Description": "SoldierInfo",
+				"HPAm": "24.0",
+				"BuildTime": "10.0",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			},
+			{
+				"BattleUnitType": "ArcherTower",
+				"Icon": "ArcherTowerIcon",
+				"Description": "ArcherTowerInfo",
+				"HPAm": "24.0",
+				"BuildTime": "10.0",
+				"Skills": [
+					{
+						"id": "power",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "dexterity",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "stamina",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "intelligence",
+						"min": "0",
+						"max": "5"
+					},
+					{
+						"id": "charisma",
+						"min": "0",
+						"max": "5"
+					}
+				],
+				"Cost": {
+					"Wood": "4",
+					"Stone": "2",
+					"Food": "4",
+					"Skystone": "0"
+				}
+			}
+		]
+ }
